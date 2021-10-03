@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca';
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container .card {
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.container .card .sedans {
+  background-color: #e38826;
+  padding: 2rem;
+  border-radius: 10px 10px 0 0;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container .card .sedans .sedans-wrapper {
+  padding: 1rem;
+}
+
+.container .card .sedans .sedans-wrapper h1 {
+  font-family: 'Big Shoulders Display';
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.container .card .sedans .sedans-wrapper p {
+  margin-top: 1.5rem;
+  opacity: 0.75;
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+}
+
+.container .card .sedans .sedans-wrapper .button {
+  padding: 1rem;
+  margin: 2rem 0 0rem 0;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.container .card .sedans .sedans-wrapper .button a {
+  color: #e38826;
+  text-decoration: none;
+}
+
+.container .card .suv {
+  background-color: #006970;
+  padding: 2rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container .card .suv .suv-wrapper {
+  padding: 1rem;
+}
+
+.container .card .suv .suv-wrapper h1 {
+  font-family: 'Big Shoulders Display';
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.container .card .suv .suv-wrapper p {
+  margin-top: 1.5rem;
+  opacity: 0.75;
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+}
+
+.container .card .suv .suv-wrapper .button {
+  padding: 1rem;
+  margin: 2rem 0 0rem 0;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.container .card .suv .suv-wrapper .button a {
+  color: #006970;
+  text-decoration: none;
+}
+
+.container .card .luxury {
+  background-color: #004241;
+  padding: 2rem;
+  border-radius: 0px 0 10px 10px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container .card .luxury .luxury-wrapper {
+  padding: 1rem;
+}
+
+.container .card .luxury .luxury-wrapper h1 {
+  font-family: 'Big Shoulders Display';
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.container .card .luxury .luxury-wrapper p {
+  margin-top: 1.5rem;
+  opacity: 0.75;
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+}
+
+.container .card .luxury .luxury-wrapper .button {
+  padding: 1rem;
+  margin: 2rem 0 0rem 0;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.container .card .luxury .luxury-wrapper .button a {
+  color: #004241;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    height: 100vh;
+  }
+  .container .card {
+    display: flex;
+    justify-content: center;
+    height: 76%;
+    width: 72%;
+  }
+  .container .card .sedans {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .container .card .sedans .sedans-wrapper {
+    height: 100%;
+  }
+  .container .card .sedans .sedans-wrapper h1 {
+    font-size: 2.7rem;
+    margin-top: 2.5rem;
+  }
+  .container .card .sedans .sedans-wrapper p {
+    font-size: 1.1rem;
+    margin-top: 2.3rem;
+    line-height: 1.9rem;
+  }
+  .container .card .sedans .sedans-wrapper .button {
+    width: 70%;
+    margin-top: 5rem;
+  }
+  .container .card .suv .suv-wrapper {
+    height: 100%;
+  }
+  .container .card .suv .suv-wrapper h1 {
+    font-size: 2.7rem;
+    margin-top: 2.5rem;
+  }
+  .container .card .suv .suv-wrapper p {
+    font-size: 1.1rem;
+    margin-top: 2.3rem;
+    line-height: 1.9rem;
+  }
+  .container .card .suv .suv-wrapper .button {
+    width: 70%;
+    margin-top: 5rem;
+  }
+  .container .card .luxury {
+    border-radius: 0px 10px 10px 0px;
+  }
+  .container .card .luxury .luxury-wrapper {
+    height: 100%;
+  }
+  .container .card .luxury .luxury-wrapper h1 {
+    font-size: 2.7rem;
+    margin-top: 2.5rem;
+  }
+  .container .card .luxury .luxury-wrapper p {
+    font-size: 1.1rem;
+    margin-top: 2.3rem;
+    line-height: 1.9rem;
+  }
+  .container .card .luxury .luxury-wrapper .button {
+    width: 70%;
+    margin-top: 5rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=index.css.map */
